@@ -3,10 +3,11 @@
 This folder contains annotation data of MS COCO dataset arranged and used in the [m-RNN project](http://www.stat.ucla.edu/~junhua.mao/m-RNN.html).
 The copyright of the annotations belongs to [MS COCO dataset](http://mscoco.org).
 
-##Data format
+###Data format
 
 Each file in this folder contains a list of python dictionary for a image in the MS COCO dataset.
 The dictionary generally contains the following keys:
+
 1. 'file_name': name of the image (orignial ms coco image name)
 2. 'file_path': folder contains the image w.r.t. the ms coco image root
 3. 'sentences': a list, each element of the list is a sentence which is conposed of a list of tokenized words (The annotation dictionaries in `ms_coco_anno_list_test2014.npy` does not have this key)
@@ -19,7 +20,7 @@ The dictionary generally contains the following keys:
 
 You can use python command, such as 'numpy.load('FileName').tolist()' to load this file.
 
-##File statistics
+###File statistics
 
 There are five python dictionary list files in the folder:
 
