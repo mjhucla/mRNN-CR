@@ -6,9 +6,8 @@ Created by Junhua Mao
 
 This package provides a simple way to boost the performance of image captioning task by reranking the hypotheses sentences according to the captions of nearest neighbor images in the training set.
 We denote this method as consensus reranking for the rest of this document.
-It also provides images features (both refined by the [m-RNN model](www.stat.ucla.edu/~junhua.mao/m-RNN.html) and the original [VGG feature](http://arxiv.org/abs/1409.1556) ) on MS COCO Train2014, Val2014, and Test2014 dataset.
 
-We take the [m-RNN model](www.stat.ucla.edu/~junhua.mao/m-RNN.html) as an example to generate the hypotheses descriptions of an image.
+It also provides images features (both refined by the [m-RNN model](www.stat.ucla.edu/~junhua.mao/m-RNN.html) and the original [VGG feature](http://arxiv.org/abs/1409.1556) ) on MS COCO Train2014, Val2014, and Test2014 dataset. We take the [m-RNN model](www.stat.ucla.edu/~junhua.mao/m-RNN.html) as an example to generate the hypotheses descriptions of an image.
 
 The details is described in Section 8 of the latest version of the m-RNN paper: [Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)](http://arxiv.org/abs/1412.6632).
 The work is inspired by the [nearest neighbor captions retrieval method](http://arxiv.org/abs/1505.04467).
@@ -19,7 +18,7 @@ If you find this package useful in your research, please consider citing:
 
     @article{mao2014deep,
       title={Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)},
-      author={Mao, Junhua and Xu, Wei and Yang, Yi and Wang, Jiang and Zhiheng, Huang and Yuille, Alan},
+      author={Mao, Junhua and Xu, Wei and Yang, Yi and Wang, Jiang and Huang, Zhiheng and Yuille, Alan},
       journal={ICLR},
       year={2015}
     }
