@@ -1,4 +1,4 @@
-wget -O ./cache/cache.zip https://googledrive.com/host/0BztTAiQoAH9CR0xoMmNZd3d2NU0
+wget -O ./cache/cache.zip http://www.cs.jhu.edu/~jhmao/open_source_data/mrnn_cr/cache.zip
 cd ./cache/
 unzip cache.zip
 rm cache.zip
